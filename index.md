@@ -35,8 +35,6 @@ See the [roadmap]({{ '/roadmap/' | relative_url }}) for details, or read the [le
 
 ## Who's behind this
 
-<a class="started-by" href="https://www.redmattersolutions.com">{% include redmatter-logo.svg %}</a>
-
 Identity Starter Path was started by [RedMatter Solutions](https://www.redmattersolutions.com), a technology and management consulting firm focused on technology and cybersecurity solutions. It's run as a community project: anyone can use it, fork it or contribute.
 
 ## Get involved
