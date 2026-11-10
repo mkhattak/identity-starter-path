@@ -1,0 +1,11 @@
+---
+title: Learning log
+---
+<h1>Learning log</h1>
+<p class="lede">What we learned, what broke and what's next, written weekly.</p>
+<ul class="posts">
+  {% for post in site.posts %}
+  <li><span class="date">{{ post.date | date: "%B %-d, %Y" }}</span><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+<p><a href="{{ '/feed.xml' | relative_url }}">RSS feed</a></p>

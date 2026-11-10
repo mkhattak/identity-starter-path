@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="{{ '/' | relative_url }}"><span class="dot"></span>{{ site.title }}</a>
+      <nav>
+        <a href="{{ '/roadmap/' | relative_url }}">Roadmap</a>
+        <a href="{{ '/curriculum/' | relative_url }}">Curriculum</a>
+        <a href="{{ '/labs/' | relative_url }}">Labs</a>
+        <a href="{{ '/ai/' | relative_url }}">AI</a>
+        <a href="{{ '/log/' | relative_url }}">Log</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>A community project started by the team at RedMatter Solutions. Code: MIT · Content: CC BY 4.0.</p>
+      <p class="fine">Not affiliated with or endorsed by SailPoint Technologies. SailPoint, IdentityIQ and Identity Security Cloud are trademarks of their respective owners. All lab data is synthetic.</p>
+    </div>
+  </footer>
+</body>
+</html>

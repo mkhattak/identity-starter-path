@@ -1,0 +1,21 @@
+title: "Identity Starter Path"
+description: "A free, open, hands-on path to becoming a SailPoint identity engineer, built in public with help from AI."
+# Project site: https://mkhattak.github.io/identity-starter-path
+# Change url/baseurl if the repo moves to an org or gets a custom domain.
+url: "https://mkhattak.github.io"
+baseurl: "/identity-starter-path"
+
+markdown: kramdown
+permalink: /log/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope: { path: "", type: "posts" }
+    values: { layout: "post" }
+  - scope: { path: "" }
+    values: { layout: "default" }
+
+exclude: [README.md, CONTRIBUTING.md, LICENSE, LICENSE-CONTENT.md, Gemfile, Gemfile.lock, vendor]

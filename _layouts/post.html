@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<article class="post">
+  <p class="meta"><a href="{{ '/log/' | relative_url }}">← Learning log</a> · {{ page.date | date: "%B %-d, %Y" }}{% if page.author %} · {{ page.author }}{% endif %}</p>
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+</article>
