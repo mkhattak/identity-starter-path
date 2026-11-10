@@ -33,6 +33,12 @@ We're trying something different. While we train our own first engineer, we'll p
 
 See the [roadmap]({{ '/roadmap/' | relative_url }}) for details, or read the [learning log]({{ '/log/' | relative_url }}) to follow along week by week.
 
+## Who's behind this
+
+<a class="started-by" href="https://www.redmattersolutions.com">{% include redmatter-logo.svg %}</a>
+
+Identity Starter Path was started by [RedMatter Solutions](https://www.redmattersolutions.com), a technology and management consulting firm focused on technology and cybersecurity solutions. It's run as a community project: anyone can use it, fork it or contribute.
+
 ## Get involved
 
 This is early, and that's the point. Watch or star the repo, open an issue with what you wish you'd had when you started, or send a pull request. Everything we publish uses original content and synthetic data. No customer environments, ever.
